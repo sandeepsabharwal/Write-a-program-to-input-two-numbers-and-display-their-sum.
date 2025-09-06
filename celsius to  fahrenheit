@@ -1,0 +1,20 @@
+//Write a program to convert temperature from Celsius to Fahrenheit.
+
+
+#include <stdio.h>
+
+int main() {
+    int celsius, fahrenheit;
+
+    // Input from user
+    printf("Enter temperature in Celsius: ");
+    scanf("%d", &celsius);
+
+    // Conversion formula: F = (C × 9/5) + 32
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    // Output result
+    printf("Temperature in Fahrenheit = %d\n", fahrenheit);
+
+    return 0;
+}
